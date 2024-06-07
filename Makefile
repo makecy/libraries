@@ -6,11 +6,11 @@
 #    By: mstefano <mstefano@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/05 13:14:15 by mstefano          #+#    #+#              #
-#    Updated: 2024/04/09 02:46:35 by mstefano         ###   ########.fr        #
+#    Updated: 2024/06/07 17:28:05 by mstefano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libraries.a
+NAME = libft.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -std=c99
 RM = rm -f
@@ -32,7 +32,7 @@ LIBFT_SRC = $(addprefix $(LIBFT_DIR)/, \
 	  ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c) 
 
 GNL_SRC = $(addprefix $(GNL_DIR)/, \
-	  get_next_line_bonus.c get_next_line_utils_bonus.c get_next_line.c)
+	  get_next_line_bonus.c get_next_line_utils_bonus.c)
 	  
 PRINTF_SRC = $(addprefix $(PRINTF_DIR)/, \
 	  ft_printf.c ft_print_character.c ft_print_decimal.c ft_print_hexa.c ft_print_formats.c \

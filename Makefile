@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libraries.a
+NAME = libft.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -std=c99
 RM = rm -f
